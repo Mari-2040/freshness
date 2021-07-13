@@ -1,0 +1,38 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 399 317" width="399" height="317">
+	<title>Slider</title>
+	<defs>
+		<linearGradient id="grd1" gradientUnits="userSpaceOnUse"  x1="199.964" y1="317" x2="199.964" y2="272.347">
+			<stop offset="0.05" stop-color="#9d9995"  />
+			<stop offset="0.15" stop-color="#979391"  />
+			<stop offset="0.25" stop-color="#a39f99"  />
+			<stop offset="0.4" stop-color="#a19d97"  />
+			<stop offset="0.5" stop-color="#656565"  />
+			<stop offset="0.6" stop-color="#97938f"  />
+			<stop offset="0.85" stop-color="#e3e3e3"  />
+			<stop offset="0.9" stop-color="#c1bdb7"  />
+			<stop offset="1" stop-color="#595155"  />
+		</linearGradient>
+		<linearGradient id="grd2" gradientUnits="userSpaceOnUse"  x1="1" y1="254.958" x2="399" y2="254.958">
+			<stop offset="0" stop-color="#837b7b"  />
+			<stop offset="0.25" stop-color="#a9a39f"  />
+			<stop offset="0.5" stop-color="#bfbbb7"  />
+			<stop offset="0.75" stop-color="#cbcbc5"  />
+			<stop offset="1" stop-color="#dbddd9"  />
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: url(#grd1) } 
+		.shp1 { fill: url(#grd2) } 
+		.shp2 { fill: #333333 } 
+		.shp3 { fill: #000000 } 
+	</style>
+	<g id="Slider">
+		<g id="Monitor">
+			<path id="Base" class="shp0" d="M158.62 272.35C158.62 272.35 158.31 289.6 153.97 294.62C149.63 299.63 138.16 311.32 138.16 311.32C138.16 311.32 137.71 314.45 139.09 315.96C140.48 317.47 144.67 316.89 144.67 316.89L255.26 316.89C255.26 316.89 259.45 317.47 260.84 315.96C262.22 314.45 261.77 311.32 261.77 311.32C261.77 311.32 250.29 299.63 245.96 294.62C241.62 289.6 241.31 272.35 241.31 272.35L158.62 272.35Z" />
+			<path id="Path" class="shp1" d="M1 262.58L1 237.4L399 237.4L399 262.58C399 268.07 394.52 272.52 389 272.52L11 272.52C5.48 272.52 1 268.07 1 262.58Z" />
+			<path id="Screen" class="shp2" d="M17.43 16.39L382.57 16.39L382.57 221.01L17.43 221.01L17.43 16.39Z" />
+			<path id="Black surround" class="shp3" d="M382.57 221.01L17.42 221.01L17.42 16.39L382.57 16.39L382.57 221.01ZM1 237.4L399 237.4L399 9.79C399 4.38 394.52 0 389 0L11 0C5.48 0 1 4.38 1 9.79L1 237.4Z" />
+		</g>
+	</g>
+</svg>

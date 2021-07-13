@@ -1,0 +1,428 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+input::placeholder {
+    color: #FFF;
+}
+
+.conteineri{
+    width: 1024px;
+    margin:auto;
+}
+
+section{
+
+    margin-top:50px ;
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 30px;
+}
+
+
+.veqtori{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.get{
+
+    background-color: black;
+    width: 25px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    padding: 0px; 
+    margin-right:10px;
+}
+
+.get img{
+
+    width: 50%;
+    margin: auto;
+    
+
+}
+
+.icon{
+
+    display: flex;
+}
+
+.text{
+    background-color: #333333;
+    border-radius: 10px;
+    width: 217px;
+    height: 32px;
+    border: none;
+    padding: 10px;
+}
+
+
+.zebna{
+
+    font-size: 12px;
+    color: #fff;
+    border: none;
+    width: 68px;
+    height: 32px;
+    background-color: #3bafbe;
+    border-radius: 10px;
+
+}
+
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    color: #4a4a4a;
+    padding-bottom: 36px;
+}
+
+.fresh{
+    font-size: 30px;
+    line-height: 32px;
+}
+
+.litl{
+
+    font-size: 13px;
+    line-height: 14px;
+    color: #999999;
+
+}
+
+.info{
+
+    margin-right: 15px;
+}
+
+.meniu{
+    padding: 8px;
+    display: flex;
+    font-size: 12px;
+    line-height: 12px;
+    align-items: flex-end;
+}
+header{
+
+    border-top: 5px solid #3bafbe;
+    border-bottom: 1px solid #e2e2e2;
+   
+}
+
+
+.monitori{
+
+
+    width: 400px;
+    height: 320px;
+   background-image: url("images/Monitor.svg");
+   background-repeat: no-repeat;
+
+}
+
+.surati {
+    position: relative;
+    width: 400px;
+    height: 237px;
+    padding: 17px;
+    object-fit: cover;
+}
+
+
+.title{
+
+    font-size: 42px;
+    line-height: 50px;
+    color: #4a4a4a
+
+}
+
+
+.ped{
+    width: 497px;
+    height: 64px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #999999;
+}
+
+
+.read{
+ font-size: 16px;
+line-height: 16px;
+ color: #ffffff;
+text-align: center;
+width: 130px;
+ height: 32px;
+ border-radius: 12px;
+ background-color: #3bafbe;
+border: none;
+margin-top: 40px;
+}
+
+
+.slaideri{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+
+
+.yuti-img{
+    width: 300px;
+    height: 160px;
+    object-fit: cover;
+
+}
+
+
+.here{
+    font-size: 16px;
+    line-height: 40px;
+    color: #4a4a4a;
+}
+
+.vest{
+
+    width: 298px;
+    height: 79px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #999999;
+}
+
+.more{
+
+    font-size: 13px;
+    line-height: 11px;
+    color: #ffffff;
+    text-align: center;
+    width: 106px;
+    height: 32px;
+    border-radius: 10px;
+    background-color: #3bafbe;
+    border: none;
+}
+
+
+.wre{
+
+ width: 15px;
+height: 15px;
+border-radius: 50%;
+background-color: #3bafbe;
+margin-right: 8px;
+border: 4px solid #3bafbe;
+
+}
+
+.wre:hover{
+
+    background-color: white;
+    
+}
+.wreebi{
+
+    justify-content: flex-end;
+    display: flex;
+}
+
+.intro{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.non{
+
+    font-size: 22px;
+    line-height: 31px;
+    color: #666666;
+    text-align: center;
+}
+
+
+
+.age{
+
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border: 1px solid #a39090;
+    padding: 5px;
+}
+
+.satauri{
+    font-size: 13px;
+    line-height: 20px;
+    color: #3bafbe;
+}
+
+.texsti{
+    width: 205px;
+    height: 60px;
+    font-size: 12px;
+    line-height: 19px;
+    color: #848c92;
+}
+
+.servis {
+
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mus{
+
+    display: flex;
+    margin-right: 25px;
+    margin-top: 40px;
+}
+
+.div{
+
+    margin-left: 20px;
+}
+
+.Contact{
+
+    background-color: #252525;
+    margin-right: 64px;
+    
+}
+
+
+.itemi{
+
+    font-size: 20px;
+    line-height: 40px;
+    color: #ffffff;
+}
+
+
+.name{
+    font-size: 15px;
+    line-height: 23px;
+    color: #999999;
+
+}
+
+.feri{
+
+    color: #3bafbe;
+}
+
+.quic{
+
+    font-size: 20px;
+    line-height: 42px;
+    color: #fff;
+    width: 101%;
+}
+
+
+.hear{
+
+    font-size: 14px;
+    line-height: 45px;
+    color: #3bafbe;
+}
+
+.detali{
+
+    display: flex;
+    background-color: #252525;
+    padding-top: 25px;
+
+}
+
+.from{
+
+    font-size: 20px;
+    line-height: 45px;
+    color: #ffffff;
+}
+
+.Post{
+
+    font-size: 13px;
+    line-height: 40px;
+    color: #999999;
+    width: 223px;
+    height: 40px;
+}
+
+.sed{
+
+    font-size: 12px;
+    line-height: 23px;
+    color: #999999;
+    width: 223px;
+    height: 49px;
+}
+
+.on{
+
+    font-size: 11px;
+     line-height: 13px;
+    color: #999999;
+}
+
+
+.shemdegi{
+
+    font-size: 15px;
+    padding: 40px;
+    margin-left: 50px;
+    color: #3bafbe;
+}
+
+
+.ter{
+
+    font-size: 20px;
+    line-height: 50px;
+    color: #ffffff;
+}
+
+.saxeli{
+
+    display: flex;
+    background-color: #4445;
+    border: none;
+    border-radius: 11px;
+    width: 225px;
+    height: 40px;
+    padding: 14px;
+    margin-bottom: 15px;
+    outline: none;
+    color: darkgray;
+}
+
+.clik{
+
+    margin-top: 36px;
+    font-size: 13px;
+    line-height: 21px;
+    color: #ffffff;
+    width: 80px;
+    height: 30px;
+    border-radius: 7px;
+    background-color: #3bafbe;
+    border: none;
+    display: flex;
+    padding: 6px;
+}
+
+footer{
+
+    background-color: #252525;
+}
