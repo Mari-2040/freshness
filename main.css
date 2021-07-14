@@ -58,6 +58,8 @@ section{
     height: 32px;
     border: none;
     padding: 10px;
+    color: #fff;
+    outline: none;
 }
 
 
@@ -426,3 +428,124 @@ footer{
 
     background-color: #252525;
 }
+
+@media ( max-width:1024px) {
+
+    .conteineri{
+
+        padding: 0 15px;
+    }
+}
+
+@media( max-width:768px) {
+    .conteineri{
+        width: 768px;
+        padding: 0 10px;
+    }
+
+    .slaideri{
+        flex-direction: column;
+    }
+
+    .detali{
+        flex-wrap: wrap;
+    }
+
+    .intro{
+
+        flex-wrap: wrap;
+    }
+
+    .lit{
+
+        margin-top: 15px;
+    }
+
+    .yuti{
+
+        margin-top: 15px;
+    }
+
+}
+    @media( max-width:425px){
+
+        .conteineri{
+            width: 425px;
+            
+        }
+        .meniu{
+
+            display: none;
+        }
+        .ped{
+
+            width: 100%;
+        }
+        
+        .text{
+
+            width: 120px;
+        }
+    }
+
+    @media (max-width:375px){
+
+        .conteineri{
+
+            width: 375px;
+        }
+
+        .text{
+
+            width: 108px;
+        }
+
+        .monitori{
+
+            width: 100%;
+
+            background-size: contain;
+        }
+        .surati{
+
+        
+            width: 355px;
+            height: 213px;
+            padding: 14px
+        }
+        
+        
+        .lit{
+
+            margin-top: 15px;
+        }
+    }
+
+    @media (max-width:320px) {
+        
+        .conteineri{
+
+            width: 320px;
+        }
+
+        .surati{
+
+        width: 304px;
+        height: 183px;
+        padding: 14px;
+        }
+
+        .lit{
+
+            width: 100%;
+        }
+        
+        
+        .veqtori{
+
+            flex-direction: column;
+            gap: 12px;
+        }
+    }
+
+
