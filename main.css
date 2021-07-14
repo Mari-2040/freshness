@@ -502,16 +502,16 @@ footer{
 
         .monitori{
 
-            width: 100%;
+            width: 90%;
 
             background-size: contain;
         }
         .surati{
 
-        
-            width: 355px;
-            height: 213px;
-            padding: 14px
+            
+            width: 319px;
+            height: 191px;
+           padding: 14px;
         }
         
         
@@ -530,9 +530,9 @@ footer{
 
         .surati{
 
-        width: 304px;
-        height: 183px;
-        padding: 14px;
+            width: 269px;
+            height: 161px;
+            padding: 11px
         }
 
         .lit{
